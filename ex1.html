@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICE 1</title>
+   <style>
+    fieldset{
+        width: 60%;
+    }
+   </style>
+</head>
+<body>
+   
+        <form action="">
+            <fieldset  >
+        <legend>Exercice 1</legend>
+    <table border="1" width="100%">
+    <tr>
+           <td >
+                <label for="name" >Nom</label>  
+            </td>
+            <td >
+                <input type="text" name="name"  id="name" size="30" >
+            </td>
+        </tr>  
+        <tr>
+            <td>
+                 <label  for="Prenom" >Prenom</label>  
+             </td>
+             <td >
+                 <input type="text" name="Prenom" id="Prenom" size="30" >
+             </td>
+         </tr>  
+         <tr>
+            <td>
+                <label for="sexe">Sexe</label>
+            </td>
+            <td>
+                <input type="radio" name="sexe" id="sexe">feminin
+                <input type="radio" name="sexe" id="sexe">Masculin
+            </td>
+         </tr> 
+         <tr>
+            <td>
+                <label for="date">Date de naissance</label>
+            </td>
+            <td>
+                <input id="date" type="date">
+            </td>
+         </tr>  
+         <tr>
+            <td>
+                <label for="etude">Niveau d'etude</label>
+            </td>
+            <td>
+               <select size="3" name="etude" id="etude">
+                <option value="" >1 ere annee collegue </option>
+                <option value="">2 eme annee collegue</option>
+                <option value="" selected>3 eme annee collegue</option>
+               </select>
+            </td>
+         </tr>
+         <tr>
+            <td>
+                <label for="specialite">Specialite</label>
+            </td>
+            <td>
+                <input list="specialite">
+                <datalist name="specialite" id="specialite">
+                    <option value="SM">SM</option>
+                    <option value="SPC">SPC</option>
+                    <option value="ECO">ECO</option>
+                    <option value="Lettre">Lettre</option>
+
+                    
+                </datalist>
+               
+            </td>
+         </tr>
+         <tr>
+            <td width="30%">
+                <label for="tel" >Telephone</label>
+            </td>
+            <td width="70%">
+                <input type="tel" name="tel" id="tel" >
+            </td>
+         </tr>
+         <tr>
+            <td >
+                <label for="email">Email</label>
+            </td>
+            <td>
+                <input id="email" type="email">
+            </td>
+         </tr>
+         <tr>
+            <td>
+                <label for="site">Site web personnel</label>
+            </td>
+            <td>
+                <input type="url" name="site" id="site">
+            </td>
+         </tr>
+         <tr>
+            <td>
+                <label for="adresse">Adresse</label>
+            </td>
+            <td>
+                <textarea name="adresse" id="adresse" cols="65%" rows="3"></textarea>
+            </td>
+         </tr>
+         <tr>
+            <td>
+                <label for="photo">Photo</label>
+            </td>
+            <td>
+                <input type="file" name="photo" id="photo">
+            </td>
+         </tr>
+         <tr>
+            <td>
+                <label for="loisirs">Loisirs</label>
+            </td>
+            <td>
+                <input type="checkbox">Football
+                <input type="checkbox">MUSIC
+                <input type="checkbox">GYM
+                <input type="checkbox">READING
+
+            </td>
+         </tr>
+         <tr>
+            
+            <td colspan="2" align="center" >
+                <input type="submit" value="Valider">
+                <input type="reset" value="Réinitialiser">
+            </td>
+         </tr>
+        
+    </table>
+</fieldset>
+</form>
+
+    
+    
+</body>
+</html>
